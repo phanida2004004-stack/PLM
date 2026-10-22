@@ -1,0 +1,66 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> plm-integrated@3.0.0 test
+> node --test backend/test/*.test.js tests/*.test.mjs && vitest run --config frontend/vite.config.js
+
+✔ Demo source: five invoices, 25 items, isolated SAP repeats, correct totals (67.56471ms)
+✔ validation blocks conflicting duplicate, missing identifiers, invalid dates and malformed booleans (5.750568ms)
+✔ item references remain stable; conflicting SAP and WO assignments are refused (27.021963ms)
+✔ local notes and confirmations persist; changed source invalidates confirmation and keeps audit (125.882293ms)
+✔ manual WO number cannot be reused by later import (26.69428ms)
+✔ HTTP APIs: preview/commit, mode separation, notes, confirmations, export, Sheets setup errors (336.610441ms)
+✔ stale import preview rejected after another import changes same source (66.16864ms)
+✔ XLSX template round-trip parser accepts native dates and rejects formula values (51.759816ms)
+✔ delivered template imports correctly and retains identifier / date / boolean types (22.442045ms)
+✔ ACCEPT + verified matching WO completes (2.958645ms)
+✔ REJECT requires Inspection_Assembly and stays pending without WO (0.95194ms)
+✔ DIRECT requires named confirmation and evidence (0.294832ms)
+✔ no result never invents a model (0.193592ms)
+✔ mismatch / unverified / missing model / orphan WO require review (0.260156ms)
+✔ QC language aliases and ambiguous / negated results (0.655246ms)
+✔ stale manual confirmation cannot count as completed (0.202889ms)
+✔ summary partitions all rows and invoice completion is exact (1.313848ms)
+✔ waiting days use Bangkok calendar and missing start stays unknown (19.702019ms)
+✔ PDF: real two-page file extracts Invoice, stable refs, SAP PO, codes and wrapped description (490.704355ms)
+Warning: Indexing all PDF objects
+✔ PDF: rejects disguised / corrupt files and handles textless pages without invented rows (451.232543ms)
+✔ PDF: never guesses SAP from arbitrary numbers and supports stacked table labels (3.882664ms)
+✔ PDF: reimport preserves QC/WO/notes/confirmation and blocks ambiguous different refs (281.690501ms)
+✔ PDF HTTP: extraction is unsaved; reviewed editable preview commits, stays isolated, persists and is idempotent (508.529121ms)
+✔ same PO uses one evidenced brand for an ambiguous component (1.977259ms)
+✔ different PO is never used as evidence (0.396562ms)
+✔ conflicting BOM brands stay unresolved instead of choosing by majority (0.465942ms)
+✔ one confirmed same-PO brand has priority over automatic suggestions (0.35255ms)
+✔ conflicting confirmed brands are never guessed (0.402503ms)
+✔ component candidate intersection requires unique supporting evidence (0.346227ms)
+✔ missing BOM has no brand even with a same-PO anchor (0.334506ms)
+✔ Original PL exact field regression case-001 (941.785945ms)
+✔ Original PL exact field regression case-002 (45.691265ms)
+✔ Original PL exact field regression case-003 (38.793384ms)
+✔ Original PL exact field regression case-004 (30.913183ms)
+✔ All 9 recovered documents and all PDFs remain available with original bytes (117.706988ms)
+✔ Shared WO PDF reader returns full PL rows, never undefined items (31.324888ms)
+✔ Import confirmed PL into real WO; repeated import preserves notes/QC and does not duplicate (807.916717ms)
+✔ Confirm PL, restart server, reupload renamed PDF: stored document and memory are reused (830.82525ms)
+✔ Invalid PDF, non-PDF, missing files and private-origin requests return useful errors (12.086933ms)
+✔ Print all recovered PLs with BOM and BRAND, never production models (1446.708531ms)
+✔ atomic document/memory bundle preserves old backups and commits both (6.833094ms)
+✔ interrupted multi-file save recovers on next startup (1.861783ms)
+✔ damaged JSON is never silently replaced with an empty array (1.83342ms)
+ℹ tests 43
+ℹ suites 0
+ℹ pass 43
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4542.272854
+
+ RUN  v5.0.5 /workspace/scratch/57b5023cdfae/PLM-Integrated/frontend
+
+
+ Test Files  2 passed (2)
+      Tests  15 passed (15)
+   Start at  10:11:05
+   Duration  3.85s (tests 71%, environment 13%, import 10%, transform 6%)
+

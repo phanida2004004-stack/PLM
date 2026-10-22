@@ -1,0 +1,16 @@
+{
+  "note": "Only filenames in the original-source snapshot are converted to ASCII. PDF bytes and active project data are unchanged.",
+  "renamed": {
+    "original-source/project_--main/uploads/1792047319524-294474455-PL_a╠Ç┬╕┬úa╠Ç┬╕┬ç_INV26-CWZ109 ( 579 CTNS) BY SEA_PK.pdf": "original-source/project_--main/uploads/1792047319524-294474455.pdf",
+    "original-source/project_--main/uploads/1791874873902-702208584-PL-a╠Ç┬╕┬úa╠Ç┬╕┬ç-INV26-CWZ055 (181CTNS) BY SEA .pdf": "original-source/project_--main/uploads/1791874873902-702208584.pdf",
+    "original-source/project_--main/uploads/1791874384300-334662662-PL_a╠Ç┬╕┬úa╠Ç┬╕┬ç_INV26-CWZ051 (493 CTNS) BY SEA_PK.pdf": "original-source/project_--main/uploads/1791874384300-334662662.pdf",
+    "original-source/project_--main/uploads/1791873101184-867412351-PL-a╠Ç┬╕┬úa╠Ç┬╕┬ç-INV26-CWZ045 (1114 CTNS) BY SEA .pdf": "original-source/project_--main/uploads/1791873101184-867412351.pdf",
+    "original-source/project_--main/uploads/1791875617858-30469535-PL_a╠Ç┬╕┬úa╠Ç┬╕┬ç_INV26-CWZ069 (205 CTNS) BY SEA_PK.pdf": "original-source/project_--main/uploads/1791875617858-30469535.pdf",
+    "original-source/project_--main/uploads/1790181566327-662952596-1790181180991-635923382-PL_A╠â┬áA╠é┬╕A╠é┬úA╠â┬áA╠é┬╕A╠é┬ç_INV26-CWZ092 ( 1,145 CTNS) BY SEA_PK.pdf": "original-source/project_--main/uploads/1790181566327-662952596.pdf",
+    "original-source/project_--main/uploads/1791877283236-512997943-PL_a╠Ç┬╕┬úa╠Ç┬╕┬ç_INV26-CWZ075 (1283 CTNS) BY SEA_PK.pdf": "original-source/project_--main/uploads/1791877283236-512997943.pdf",
+    "original-source/project_--main/uploads/1792460390630-945847119-PL_a╠Ç┬╕┬úa╠Ç┬╕┬ç_INV26-CWZ111 ( 1,252 CTNS) BY SEA_FG+PK.pdf": "original-source/project_--main/uploads/1792460390630-945847119.pdf",
+    "original-source/project_--main/uploads/1791875149794-285968266-PL_a╠Ç┬╕┬úa╠Ç┬╕┬ç_INV26-CWZ067 ( CTNS) BY SEA_FG+PK.pdf": "original-source/project_--main/uploads/1791875149794-285968266.pdf",
+    "original-source/project_--main/uploads/1791874031170-414120936-PL_a╠Ç┬╕┬úa╠Ç┬╕┬ç_INV26-CWZ050 (2,109CTNS) BY SEA_FG+PK.pdf": "original-source/project_--main/uploads/1791874031170-414120936.pdf",
+    "original-source/project_--main/uploads/1791875927419-136486104-PL-a╠Ç┬╕┬úa╠Ç┬╕┬ç-INV26-CWZ073 (1,462CTNS) BY SEA.pdf": "original-source/project_--main/uploads/1791875927419-136486104.pdf"
+  }
+}

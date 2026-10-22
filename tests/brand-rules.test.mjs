@@ -1,0 +1,10 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import rules from '../pl/public/brand-rules.js';
+const row=(brand,extra={})=>({sapPo:'PO-1',bomFound:true,originalBrand:brand,brand,brandSource:brand?'BOM':'',brandCandidates:[],...extra});
+test('same PO uses one evidenced brand for an ambiguous component',()=>{const data=rules.resolveByPO([row('A'),row('',{brandCandidates:['A','B']})]);assert.equal(data[1].brand,'A');assert.equal(data[1].brandSource,'SAP_PO_FALLBACK');});
+test('different PO is never used as evidence',()=>{const data=rules.resolveByPO([row('A'),row('',{sapPo:'PO-2',brandCandidates:['B','C']})]);assert.equal(data[1].brand,'');});
+test('conflicting BOM brands stay unresolved instead of choosing by majority',()=>{const data=rules.resolveByPO([row('A'),row('A'),row('B')]);assert.ok(data.every(r=>!r.brand&&r.conflict));});
+test('one confirmed same-PO brand has priority over automatic suggestions',()=>{const data=rules.resolveByPO([row('A',{brandSource:'CONFIRMED',verified:true}),row('B')]);assert.equal(data[1].brand,'A');});
+test('conflicting confirmed brands are never guessed',()=>{const data=rules.resolveByPO([row('A',{brandSource:'MANUAL',verified:true}),row('B',{brandSource:'MANUAL',verified:true})]);assert.ok(data.every(r=>r.conflict));});
+test('component candidate intersection requires unique supporting evidence',()=>{const data=rules.resolveByPO([row('',{brandCandidates:['A','B']}),row('',{brandCandidates:['B','C']})]);assert.ok(data.every(r=>r.brand==='B'));});
+test('missing BOM has no brand even with a same-PO anchor',()=>{const data=rules.resolveByPO([row('A'),row('',{bomFound:false})]);assert.equal(data[1].brand,'');});

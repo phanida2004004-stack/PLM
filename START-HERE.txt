@@ -1,0 +1,13 @@
+เปิดโฟลเดอร์ PLM-Integrated ใน VS Code (ต้องเห็น package.json / server.mjs)
+ใช้ Node.js 24 ขึ้นไป
+Terminal → New Terminal
+
+npm ci
+npm run doctor
+npm run dev
+
+เปิด http://localhost:3000
+หน้า PL เดิม: http://localhost:3000/pl/
+
+รายละเอียดดู README.md
+เริ่มจากโฟลเดอร์ใหม่ อย่าทับหรือลบข้อมูลโปรเจกต์เก่า

@@ -1,0 +1,66 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+npm warn deprecated fstream@1.0.12: This package is no longer supported.
+
+added 437 packages in 15s
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> wo-tracking-dashboard@1.1.0 test
+> node --test backend/test/*.test.js && vitest run --config frontend/vite.config.js
+
+✔ Demo source: five invoices, 25 items, isolated SAP repeats, correct totals (86.206176ms)
+✔ validation blocks conflicting duplicate, missing identifiers, invalid dates and malformed booleans (6.926764ms)
+✔ item references remain stable; conflicting SAP and WO assignments are refused (26.642463ms)
+✔ local notes and confirmations persist; changed source invalidates confirmation and keeps audit (137.340416ms)
+✔ manual WO number cannot be reused by later import (27.936756ms)
+✔ HTTP APIs: preview/commit, mode separation, notes, confirmations, export, Sheets setup errors (396.444854ms)
+✔ stale import preview rejected after another import changes same source (65.968422ms)
+✔ XLSX template round-trip parser accepts native dates and rejects formula values (39.379353ms)
+✔ delivered template imports correctly and retains identifier / date / boolean types (20.096843ms)
+✔ ACCEPT + verified matching WO completes (2.714257ms)
+✔ REJECT requires Inspection_Assembly and stays pending without WO (0.736708ms)
+✔ DIRECT requires named confirmation and evidence (0.435748ms)
+✔ no result never invents a model (0.441444ms)
+✔ mismatch / unverified / missing model / orphan WO require review (0.491931ms)
+✔ QC language aliases and ambiguous / negated results (0.767075ms)
+✔ stale manual confirmation cannot count as completed (0.264924ms)
+✔ summary partitions all rows and invoice completion is exact (1.723262ms)
+✔ waiting days use Bangkok calendar and missing start stays unknown (27.76529ms)
+✔ PDF: real two-page file extracts Invoice, stable refs, SAP PO, codes and wrapped description (681.944082ms)
+Warning: Indexing all PDF objects
+✔ PDF: rejects disguised / corrupt files and handles textless pages without invented rows (400.960955ms)
+✔ PDF: never guesses SAP from arbitrary numbers and supports stacked table labels (2.931602ms)
+✔ PDF: reimport preserves QC/WO/notes/confirmation and blocks ambiguous different refs (287.252999ms)
+✔ PDF HTTP: extraction is unsaved; reviewed editable preview commits, stays isolated, persists and is idempotent (525.60149ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2398.525628
+
+ RUN  v5.0.5 /workspace/scratch/14b49e3e2905/tmp/pdf-cleanroom/wo-tracking-dashboard/frontend
+
+
+ Test Files  2 passed (2)
+      Tests  13 passed (13)
+   Start at  13:19:24
+   Duration  4.73s (tests 65%, environment 18%, import 9%, transform 8%)
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> wo-tracking-dashboard@1.1.0 smoke
+> node scripts/smoke.mjs
+
+PASS: real backend startup + demo API (5 invoices / 25 items)
+PASS: built frontend HTML and JavaScript served over HTTP
+PASS: real database starts empty and separate from demo
+
+Standalone npm run smoke rerun: exit 0; startup, built frontend, mode isolation, actual restart persistence, template download and backup all passed.

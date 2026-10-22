@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="th" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PL Brand System - Packing List Logistics Manifest</title>
+    <!-- Tailwind CSS CDN -->
+    <link rel="stylesheet" href="/pl/assets/pl.css">
+    <!-- Lucide Icons & SweetAlert2 -->
+    <script src="/pl/assets/lucide.min.js"></script>
+    <script src="/pl/assets/sweetalert2.all.min.js"></script>
+    <style>
+        :root {
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --border-card: #e2e8f0;
+            --text-heading: #0f172a;
+            --text-body: #334155;
+            --text-muted: #64748b;
+        }
+        
+        .dark-theme {
+            --bg-body: #090d16;
+            --bg-card: #111827;
+            --border-card: #1f293d;
+            --text-heading: #f8fafc;
+            --text-body: #cbd5e1;
+            --text-muted: #94a3b8;
+            color-scheme: dark;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-body);
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        /* Custom Modern Scrollbars */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 9999px;
+        }
+        .dark-theme ::-webkit-scrollbar-thumb {
+            background: #334155;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Subtle Grid Pattern */
+        .bg-grid-pattern {
+            background-size: 32px 32px;
+            background-image: 
+                linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+        }
+        .dark-theme .bg-grid-pattern {
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+        }
+
+        .stat-glow {
+            position: relative;
+        }
+        .stat-glow::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        .glow-blue::before { background: linear-gradient(90deg, #3b82f6, #06b6d4); }
+        .glow-indigo::before { background: linear-gradient(90deg, #6366f1, #8b5cf6); }
+        .glow-emerald::before { background: linear-gradient(90deg, #10b981, #14b8a6); }
+        .glow-amber::before { background: linear-gradient(90deg, #f59e0b, #ef4444); }
+
+        #dataTablePanel th + th,
+        #dataTablePanel td + td {
+            border-left: 1px solid #e2e8f0;
+        }
+
+        .dark-theme #dataTablePanel th + th,
+        .dark-theme #dataTablePanel td + td {
+            border-left-color: #334155;
+        }
+
+        @media (max-width: 767px) {
+            #dataTablePanel {
+                overflow-x: auto;
+            }
+
+            #dataTablePanel table {
+                min-width: 900px;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased bg-gradient-to-br from-slate-50 via-blue-50/40 to-cyan-50/50 dark:from-slate-950 dark:via-slate-950 dark:to-blue-950/30 selection:bg-blue-500/20">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-30 text-white border-b border-blue-400/30 shadow-lg shadow-blue-900/10 backdrop-blur-xl bg-gradient-to-r from-blue-700 via-blue-600 to-cyan-500">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <a href="index.html" class="flex items-center gap-2.5 group">
+                    <div class="w-10 h-10 rounded-xl bg-white/15 border border-white/20 backdrop-blur-sm flex items-center justify-center text-white shadow-lg group-hover:scale-105 transition-all duration-200">
+                        <i data-lucide="boxes" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-base font-bold tracking-tight text-white font-display">PL Brand System</span>
+                            <span class="px-2 py-0.5 text-[10px] font-semibold tracking-wider uppercase rounded-full bg-white/15 border border-white/20 text-white">
+    PL BRAND
+</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-none mt-0.5">ระบบตรวจสอบ Packing List และค้นหา Brand</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="flex items-center gap-3">
+                <nav class="flex items-center gap-1.5" aria-label="เมนูหลัก">
+                    <a href="index.html" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-white bg-white/10 shadow-sm border border-white/10 flex items-center gap-1.5">
+                        <i data-lucide="layout-dashboard" class="w-3.5 h-3.5 text-cyan-400"></i>
+                        <span>Dashboard</span>
+                    </a>
+                    <a href="memory.html" class="px-3.5 py-1.5 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors flex items-center gap-1.5">
+                        <i data-lucide="database" class="w-3.5 h-3.5"></i>
+                        <span>ข้อมูลที่บันทึกไว้</span>
+                    </a>
+                    <a href="history.html" class="px-3.5 py-1.5 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors flex items-center gap-1.5">
+                        <i data-lucide="archive" class="w-3.5 h-3.5"></i>
+                        <span>ประวัติเอกสาร</span>
+                    </a>
+                </nav>
+                
+                <div class="h-5 w-px bg-slate-800 mx-1"></div>
+
+                <button id="themeToggle" type="button" class="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 border border-transparent hover:border-slate-700 transition-all" title="สลับโหมดสี" aria-label="สลับโหมดสี">
+                    <i data-lucide="moon" class="w-4 h-4"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="flex-1 max-w-[1440px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+        <!-- Top Dashboard Section -->
+        <section id="dashboardSection" class="space-y-4">
+            <div class="flex flex-wrap items-center justify-between gap-3">
+                <div>
+                    <h2 class="text-base font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2 font-display">
+                        <i data-lucide="bar-chart-3" class="w-4 h-4 text-blue-600 dark:text-cyan-400"></i>
+                        Overview & Metrics
+                    </h2>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">สรุปภาพรวมเอกสารและสถานะการตรวจสอบรายการสินค้า</p>
+                </div>
+                <span id="dashboardStatus" class="inline-flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 text-xs px-3 py-1 rounded-full font-medium shadow-sm">
+                    <span class="w-1.5 h-1.5 rounded-full bg-slate-400"></span>
+                    ยังไม่มีเอกสาร
+                </span>
+            </div>
+
+            <!-- Metric Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+    <!-- Card 1: Total Items -->
+    <div class="relative overflow-hidden bg-gradient-to-br from-blue-50 to-sky-100/70 dark:from-blue-950/40 dark:to-slate-900
+                rounded-2xl border border-blue-100 dark:border-blue-900/60 p-5 shadow-sm
+                hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+
+        <div class="absolute -right-5 -top-5 w-24 h-24 bg-blue-200/30 rounded-full"></div>
+
+        <div class="relative">
+            <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-blue-500 text-white flex items-center justify-center shadow-md shadow-blue-200">
+                    <i data-lucide="package" class="w-5 h-5"></i>
+                </div>
+
+                <span class="text-[10px] font-bold tracking-wider uppercase text-blue-500">
+                    TOTAL
+                </span>
+            </div>
+
+            <div class="mt-5">
+                <p class="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                    รายการทั้งหมด
+                </p>
+
+                <p id="dashboardItems"
+                   class="text-3xl font-bold font-mono text-slate-900 dark:text-white mt-1">
+                    0
+                </p>
+
+                <p class="text-[11px] text-slate-400 mt-1">
+                    รายการจาก Packing List
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Card 2: BOM Found -->
+    <div class="relative overflow-hidden bg-gradient-to-br from-emerald-50 to-green-100/70 dark:from-emerald-950/40 dark:to-slate-900
+                rounded-2xl border border-emerald-100 dark:border-emerald-900/60 p-5 shadow-sm
+                hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+
+        <div class="absolute -right-5 -top-5 w-24 h-24 bg-emerald-200/30 rounded-full"></div>
+
+        <div class="relative">
+            <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-emerald-500 text-white flex items-center justify-center shadow-md shadow-emerald-200">
+                    <i data-lucide="circle-check-big" class="w-5 h-5"></i>
+                </div>
+
+                <span class="text-[10px] font-bold tracking-wider uppercase text-emerald-500">
+                    BOM
+                </span>
+            </div>
+
+            <div class="mt-5">
+                <p class="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                    พบ BOM
+                </p>
+
+                <p id="dashboardBomFound"
+                   class="text-3xl font-bold font-mono text-emerald-600 dark:text-emerald-400 mt-1">
+                    0
+                </p>
+
+                <p class="text-[11px] text-slate-400 mt-1">
+                    ตรวจพบข้อมูล BOM
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Card 3: Need Review -->
+    <div class="relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-100/70 dark:from-amber-950/40 dark:to-slate-900
+                rounded-2xl border border-amber-100 dark:border-amber-900/60 p-5 shadow-sm
+                hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+
+        <div class="absolute -right-5 -top-5 w-24 h-24 bg-amber-200/30 rounded-full"></div>
+
+        <div class="relative">
+            <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-amber-500 text-white flex items-center justify-center shadow-md shadow-amber-200">
+                    <i data-lucide="triangle-alert" class="w-5 h-5"></i>
+                </div>
+
+                <span class="text-[10px] font-bold tracking-wider uppercase text-amber-500">
+                    REVIEW
+                </span>
+            </div>
+
+            <div class="mt-5">
+                <p class="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                    ต้องตรวจสอบ
+                </p>
+
+                <p id="dashboardReview"
+                   class="text-3xl font-bold font-mono text-amber-600 dark:text-amber-400 mt-1">
+                    0
+                </p>
+
+                <p class="text-[11px] text-slate-400 mt-1">
+                    Brand หรือข้อมูลที่ต้องตรวจสอบ
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Card 4: BOM Missing -->
+    <div class="relative overflow-hidden bg-gradient-to-br from-rose-50 to-red-100/70 dark:from-rose-950/40 dark:to-slate-900
+                rounded-2xl border border-rose-100 dark:border-rose-900/60 p-5 shadow-sm
+                hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+
+        <div class="absolute -right-5 -top-5 w-24 h-24 bg-rose-200/30 rounded-full"></div>
+
+        <div class="relative">
+            <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-rose-500 text-white flex items-center justify-center shadow-md shadow-rose-200">
+                    <i data-lucide="circle-x" class="w-5 h-5"></i>
+                </div>
+
+                <span class="text-[10px] font-bold tracking-wider uppercase text-rose-500">
+                    MISSING
+                </span>
+            </div>
+
+            <div class="mt-5">
+                <p class="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                    ไม่พบ BOM
+                </p>
+
+                <p id="dashboardBomMissing"
+                   class="text-3xl font-bold font-mono text-rose-600 dark:text-rose-400 mt-1">
+                    0
+                </p>
+
+                <p class="text-[11px] text-slate-400 mt-1">
+                    ไม่พบข้อมูล BOM
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+        </section>
+
+        <!-- Main Workspace: Left Action & Manifest Table + Right Sidebar -->
+        <div class="space-y-6">
+            
+            <!-- Left Column: Upload & Data Extraction Area -->
+            <div class="space-y-6 min-w-0">
+                
+                <!-- Upload Drop Zone Section -->
+                <section id="uploadSection"
+    class="relative overflow-hidden bg-white/90 dark:bg-slate-900/90 rounded-2xl
+    shadow-lg shadow-blue-100/50 dark:shadow-none
+    border border-blue-100 dark:border-slate-800
+    p-6 transition-all duration-300">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h2 class="text-sm font-bold uppercase tracking-wider text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                                <i data-lucide="upload-cloud" class="w-4 h-4 text-blue-600 dark:text-cyan-400"></i>
+                                อัปโหลด Packing List PDF
+                            </h2>
+                            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+    อัปโหลด Packing List เพื่ออ่านข้อมูล ตรวจสอบ BOM ค้นหา Brand และ Production Model
+</p>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Drag & Drop Area -->
+                    <div id="dropZone"
+    class="group relative overflow-hidden border-2 border-dashed border-blue-200
+    dark:border-slate-700 hover:border-blue-500 dark:hover:border-cyan-400
+    bg-gradient-to-br from-blue-50/80 via-white to-cyan-50/70
+    dark:from-slate-800/60 dark:via-slate-900 dark:to-blue-950/30
+    hover:shadow-lg hover:shadow-blue-100/60 dark:hover:shadow-none
+    rounded-2xl p-10 text-center cursor-pointer
+    transition-all duration-300">
+                        <input type="file" id="fileInput" accept=".pdf" class="hidden">
+                        <div class="flex flex-col items-center gap-3">
+                            <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-400
+    text-white rounded-2xl shadow-lg shadow-blue-200
+    flex items-center justify-center
+    group-hover:scale-110 group-hover:-translate-y-1
+    transition-all duration-300">
+                                <i data-lucide="file-up" class="w-7 h-7"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-semibold text-slate-800 dark:text-slate-200">
+                                    ลากไฟล์ PDF มาวางที่นี่ หรือ <span class="text-blue-600 dark:text-cyan-400 underline underline-offset-2">คลิกเพื่อเลือกไฟล์</span>
+                                </p>
+                                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1">รองรับไฟล์เอกสาร Shipping Packing List (.PDF) เท่านั้น</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Selected File Preview Chip -->
+                    <div id="fileDetails" class="hidden mt-4 bg-slate-50 dark:bg-slate-800/80 rounded-xl p-4 flex flex-wrap items-center justify-between gap-4 border border-slate-200 dark:border-slate-700">
+                        <div class="flex items-center gap-3 min-w-0">
+                            <div class="w-10 h-10 rounded-lg bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="file-text" class="w-5 h-5"></i>
+                            </div>
+                            <div class="min-w-0">
+                                <p id="fileName" class="text-sm font-bold text-slate-800 dark:text-slate-200 truncate font-mono"></p>
+                                <p id="fileSize" class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 font-mono"></p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button id="cancelBtn" class="px-3.5 py-2 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-600 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 shadow-sm">
+                                <i data-lucide="x" class="w-3.5 h-3.5"></i> ยกเลิก
+                            </button>
+                            <button id="processBtn" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white rounded-lg text-xs font-semibold transition-all shadow-sm flex items-center gap-1.5">
+                                <i data-lucide="play" class="w-3.5 h-3.5"></i> เริ่มตรวจสอบ
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Processing / Loading State Section -->
+                <section id="statusSection" class="hidden bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-200 dark:border-slate-800 p-8 text-center">
+                    <div class="flex flex-col items-center justify-center py-6">
+                        <div class="relative mb-4">
+                            <div class="w-12 h-12 rounded-full border-4 border-blue-200 dark:border-blue-900 border-t-blue-600 dark:border-t-cyan-400 animate-spin"></div>
+                            <i data-lucide="cpu" class="w-5 h-5 text-blue-600 dark:text-cyan-400 absolute inset-0 m-auto"></i>
+                        </div>
+                        <h3 id="statusText" class="text-base font-bold text-slate-800 dark:text-slate-100">กำลังอ่านไฟล์...</h3>
+                        <p id="statusSubText" class="text-xs text-slate-500 dark:text-slate-400 mt-1">ระบบกำลัง Extract ข้อมูล และคำนวณพิกัดบรรทัด</p>
+                    </div>
+                </section>
+
+                <!-- Preview & Extracted Data Section -->
+                <section id="previewSection" class="hidden space-y-4">
+                    
+                    <!-- Metadata Strip Bar -->
+                    <div class="relative overflow-hidden bg-white/95 dark:bg-slate-900/95
+    rounded-2xl p-5 shadow-lg shadow-blue-100/40 dark:shadow-none
+    border border-blue-100 dark:border-slate-800
+    grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5
+    gap-4 items-center">
+                        <div class="border-r border-slate-100 dark:border-slate-800/80 pr-2">
+                            <span class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider block font-mono">Document ID</span>
+                            <span id="metaDocId"
+    class="inline-flex mt-1 px-2.5 py-1 rounded-lg
+    bg-blue-50 dark:bg-blue-950/50
+    border border-blue-100 dark:border-blue-900
+    text-sm font-bold text-blue-600 dark:text-cyan-400 font-mono">
+                        </div>
+                        <div class="border-r border-slate-100 dark:border-slate-800/80 pr-2">
+                            <span class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider block font-mono">ชื่อไฟล์</span>
+                            <span id="metaFileName" class="text-xs font-semibold text-slate-700 dark:text-slate-300 truncate block">-</span>
+                        </div>
+                        <div class="border-r border-slate-100 dark:border-slate-800/80 pr-2 hidden sm:block">
+                            <span class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider block font-mono">เวลาบันทึก</span>
+                            <span id="metaUploadTime" class="text-xs font-medium text-slate-600 dark:text-slate-400 font-mono">-</span>
+                        </div>
+                        <div class="border-r border-slate-100 dark:border-slate-800/80 pr-2">
+                            <span class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider block font-mono">หน้า / ขนาด</span>
+                            <span id="metaPageCount" class="text-xs font-medium text-slate-600 dark:text-slate-400 font-mono">-</span>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider block font-mono">Engine Status</span>
+                            <span id="metaProcessType"
+    class="inline-flex items-center gap-1.5 mt-1
+    bg-emerald-50 dark:bg-emerald-950/60
+    border border-emerald-200 dark:border-emerald-800
+    text-emerald-700 dark:text-emerald-300
+    text-[11px] px-2.5 py-1 rounded-full font-semibold">
+                                <i data-lucide="check-circle" class="w-3 h-3"></i> Text Layer
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Extracted Data Panel -->
+                    <div id="extractedDataSection"
+    class="bg-white/95 dark:bg-slate-900/95
+    rounded-2xl shadow-lg shadow-blue-100/40 dark:shadow-none
+    border border-blue-100 dark:border-slate-800">
+                        
+                        <!-- Panel Header with Action Toolbar -->
+                        <div class="p-5 border-b border-blue-100 dark:border-slate-800
+    flex flex-wrap items-center justify-between gap-3
+    bg-gradient-to-r from-blue-50/80 via-white to-cyan-50/60
+    dark:from-slate-800/70 dark:via-slate-900 dark:to-blue-950/30">
+                            <div>
+                                <h3 class="text-sm font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
+                                    <i data-lucide="table-2" class="w-4 h-4 text-blue-600 dark:text-cyan-400"></i>
+                                    ตารางตรวจสอบข้อมูลที่สกัดได้ (Extracted Manifest)
+                                </h3>
+                                <p id="validationSummary" class="text-xs font-semibold mt-0.5 text-slate-500"></p>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-2">
+                                <button id="newUploadBtn" class="px-3 py-1.5 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 shadow-sm">
+                                    <i data-lucide="file-plus-2" class="w-3.5 h-3.5"></i> เอกสารใหม่
+                                </button>
+                                <button id="deleteDataBtn" class="px-3 py-1.5 bg-white dark:bg-slate-800 hover:bg-red-50 dark:hover:bg-red-950/40 text-red-600 dark:text-red-400 border border-red-200 dark:border-red-900 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 shadow-sm">
+                                    <i data-lucide="trash-2" class="w-3.5 h-3.5"></i> ลบข้อมูล
+                                </button>
+                                <button id="printPreviewBtn" type="button" class="px-3 py-1.5 bg-white dark:bg-slate-800 hover:bg-blue-50 text-blue-700 border border-blue-200 rounded-lg text-xs font-semibold flex items-center gap-1.5 shadow-sm hidden">
+                                    <i data-lucide="printer" class="w-3.5 h-3.5"></i> Print Preview
+                                </button>
+                                <span id="reviewProgress" class="text-xs text-slate-500"></span><button id="confirmDataBtn" class="
+    inline-flex items-center justify-center gap-2
+    px-4 py-2
+    rounded-xl
+    bg-gradient-to-r from-blue-600 to-cyan-500
+    hover:from-blue-700 hover:to-cyan-600
+    text-white text-xs font-semibold
+    shadow-md shadow-blue-200/60 dark:shadow-none
+    hover:-translate-y-0.5
+    disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0
+    transition-all duration-200
+">
+                                    <i data-lucide="check-check" class="w-3.5 h-3.5"></i> ยืนยันข้อมูล
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Data Grid Table -->
+                        <div id="dataTablePanel" class="w-full">
+                            <table class="w-full table-fixed text-left text-xs border-collapse">
+
+    <thead class="
+        sticky top-0 z-10
+        bg-gradient-to-r from-blue-50 via-sky-50 to-cyan-50
+        dark:from-slate-800 dark:via-slate-800 dark:to-blue-950/40
+        border-b border-blue-100 dark:border-slate-700
+    ">
+        <tr class="
+            text-slate-700 dark:text-slate-300
+            font-semibold font-mono uppercase
+            tracking-wider text-[11px]
+        ">
+
+            <th class="py-3 px-2 w-[4%] text-center">
+                #
+            </th>
+
+            <th class="py-3 px-2 w-[9%]">
+                SAP PO.
+            </th>
+
+            <th class="py-3 px-2 w-[11%]">
+                SAP NO.
+            </th>
+
+            <th class="py-3 px-3 w-[28%]">
+                DESCRIPTION
+            </th>
+
+            <th class="py-3 px-2 w-[17%] text-center whitespace-nowrap">
+                PRODUCTION MODEL
+            </th>
+
+            <th class="py-3 px-2 w-[9%] text-center">
+                BOM
+            </th>
+
+            <th class="py-3 px-2 w-[11%] text-center">
+                BRAND
+            </th>
+
+            <th class="py-3 px-2 w-[11%] text-center">
+                ACTION
+            </th>
+
+        </tr>
+    </thead>    
+                                <tbody id="dataTableBody" class="divide-y divide-slate-100 dark:divide-slate-800 font-mono text-slate-800 dark:text-slate-200">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- Right Column: Sidebar Document Archive History -->
+            <aside class="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden sticky top-20">
+                <div class="px-4 py-3.5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-slate-50/60 dark:bg-slate-800/40">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="history" class="w-4 h-4 text-blue-600 dark:text-cyan-400"></i>
+                        <div>
+                            <h3 class="font-bold text-xs uppercase tracking-wider text-slate-800 dark:text-slate-200">ประวัติเอกสาร</h3>
+                            <p class="text-[11px] text-slate-500 dark:text-slate-400">เอกสารที่บันทึกแล้วในระบบ</p>
+                        </div>
+                    </div>
+                    <button id="refreshHistoryBtn" class="p-1.5 text-slate-400 hover:text-blue-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors" title="รีเฟรชประวัติ">
+                        <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+                
+                <div id="documentHistory" class="divide-y divide-slate-100 dark:divide-slate-800 max-h-[580px] overflow-y-auto">
+                    <p class="p-6 text-center text-xs text-slate-400">ยังไม่มีเอกสารที่บันทึกไว้</p>
+                </div>
+            </aside>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-auto border-t border-slate-200 dark:border-slate-800/80 bg-white/50 dark:bg-slate-900/50 py-3 text-center text-[11px] text-slate-400">
+        <div class="max-w-[1440px] mx-auto px-4 flex items-center justify-between">
+            <p>PL Brand Verification System &copy; Phase 1</p>
+            <p class="font-mono">Offline-First Engine</p>
+        </div>
+    </footer>
+
+    <div id="manualBomModal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/40 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="manualBomTitle">
+        <section class="w-full max-w-xl overflow-hidden rounded-2xl border border-blue-100 bg-white shadow-2xl shadow-slate-900/20 dark:border-slate-700 dark:bg-slate-900">
+            <header class="flex items-start justify-between gap-4 border-b border-blue-100 bg-gradient-to-r from-blue-50 to-cyan-50 p-5 dark:border-slate-700 dark:from-slate-800 dark:to-slate-900">
+                <div class="flex items-start gap-3">
+                    <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-100 text-blue-700 dark:bg-blue-950 dark:text-cyan-300"><i data-lucide="database-zap" class="h-5 w-5"></i></span>
+                    <div>
+                        <h2 id="manualBomTitle" class="text-base font-bold text-slate-900 dark:text-white">ยืนยันข้อมูล BOM ด้วยตนเอง</h2>
+                        <p class="mt-1 text-xs text-slate-600 dark:text-slate-400">ข้อมูลที่ยืนยันจะถูกบันทึกใน SAP Memory</p>
+                    </div>
+                </div>
+                <button id="manualBomClose" type="button" class="rounded-lg p-2 text-slate-500 transition-colors hover:bg-white hover:text-slate-800 dark:hover:bg-slate-800 dark:hover:text-white" aria-label="ปิด"><i data-lucide="x" class="h-4 w-4"></i></button>
+            </header>
+            <form id="manualBomForm" class="space-y-4 p-5">
+                <div class="grid gap-4 sm:grid-cols-2">
+                    <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300">SAP NO.
+                        <input id="manualSapNo" type="text" readonly class="mt-1.5 w-full rounded-lg border border-slate-200 bg-slate-100 px-3 py-2.5 font-mono text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300">
+                    </label>
+                    <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300">BOM ID
+                        <input id="manualBomId" type="text" required class="mt-1.5 w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 font-mono text-sm text-slate-800 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:focus:ring-blue-900">
+                    </label>
+                </div>
+                <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300">Product Description
+                    <input id="manualProductDescription" type="text" required class="mt-1.5 w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-800 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:focus:ring-blue-900">
+                </label>
+                <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300">Brand
+                    <input id="manualBrand" type="text" required class="mt-1.5 w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-800 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:focus:ring-blue-900">
+                </label>
+                <fieldset>
+                    <legend class="mb-2 text-xs font-semibold text-slate-700 dark:text-slate-300">Production Models</legend>
+                    <div class="grid gap-2 sm:grid-cols-3">
+                        <label class="flex items-start gap-2 rounded-lg border border-slate-200 px-3 py-2.5 text-xs text-slate-700 dark:border-slate-700 dark:text-slate-300"><input name="manualProductionModel" type="checkbox" value="Inspection_Assembly" class="mt-0.5 accent-blue-600"><span>Inspection_Assembly</span></label>
+                        <label class="flex items-start gap-2 rounded-lg border border-slate-200 px-3 py-2.5 text-xs text-slate-700 dark:border-slate-700 dark:text-slate-300"><input name="manualProductionModel" type="checkbox" value="STK+CTN_CHANGE CODE" class="mt-0.5 accent-blue-600"><span>STK+CTN_CHANGE CODE</span></label>
+                        <label class="flex items-start gap-2 rounded-lg border border-slate-200 px-3 py-2.5 text-xs text-slate-700 dark:border-slate-700 dark:text-slate-300"><input name="manualProductionModel" type="checkbox" value="DIRECT" class="mt-0.5 accent-blue-600"><span>DIRECT</span></label>
+                    </div>
+                </fieldset>
+                <p id="manualBomError" class="hidden rounded-lg border border-rose-200 bg-rose-50 px-3 py-2 text-xs text-rose-700 dark:border-rose-900 dark:bg-rose-950/40 dark:text-rose-300" role="alert"></p>
+                <div class="flex justify-end gap-2 border-t border-slate-100 pt-4 dark:border-slate-800">
+                    <button id="manualBomCancel" type="button" class="rounded-lg border border-slate-200 bg-white px-4 py-2.5 text-xs font-semibold text-slate-700 transition-colors hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700">ยกเลิก</button>
+                    <button id="manualBomSave" type="submit" class="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-blue-700 to-cyan-600 px-4 py-2.5 text-xs font-semibold text-white shadow-sm transition-colors hover:from-blue-800 hover:to-cyan-700 disabled:cursor-not-allowed disabled:opacity-60"><i data-lucide="check-check" class="h-4 w-4"></i>บันทึกและยืนยัน</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <script src="brand-rules.js"></script>
+    <script src="app.js"></script>
+<a href="/" style="position:fixed;bottom:16px;left:16px;z-index:60;background:#1d4ed8;color:white;padding:10px 16px;border-radius:10px;font:600 13px sans-serif;box-shadow:0 3px 12px #0002">← QC / WO Tracking</a>
+</body>
+</html>

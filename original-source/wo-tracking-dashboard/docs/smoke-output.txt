@@ -1,0 +1,12 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> wo-tracking-dashboard@1.1.0 smoke
+> node scripts/smoke.mjs
+
+PASS: real backend startup + demo API (5 invoices / 25 items)
+PASS: built frontend HTML and JavaScript served over HTTP
+PASS: real database starts empty and separate from demo
+PASS: actual server stop/restart preserves the saved demo note
+PASS: XLSX template download endpoint
+PASS: SQLite backup command creates both database backups
+Smoke test completed. Browser rendering was not tested.

@@ -1,0 +1,7 @@
+Node v24.19.0 / npm 11.9.0
+Fresh ZIP extraction into a separate folder
+npm ci: PASS
+npm run doctor: PASS
+npm run smoke: PASS
+WO + PL + local assets + 9 original PDFs + 166 memories
+Browser complete upload / individual review / confirm / source PDF / print: PASS

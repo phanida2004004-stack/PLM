@@ -1,0 +1,5 @@
+PASS: npm run dev starts both API and Vite
+PASS: http://localhost:5173 serves frontend HTML
+PASS: Vite proxy /api/health reaches Express
+PASS: JSX and Tailwind CSS transformation via Vite
+Browser rendering was not tested.

@@ -1,0 +1,1 @@
+const {spawnSync}=require('node:child_process');const path=require('node:path');const root=path.resolve(__dirname,'../../..');const r=spawnSync(process.execPath,['--test','tests/pl-regression.test.mjs'],{cwd:root,stdio:'inherit'});process.exit(r.status??1);

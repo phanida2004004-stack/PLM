@@ -1,0 +1,3279 @@
+[
+  {
+    "sapNo": "1210216",
+    "sapPo": "7129",
+    "bomFound": true,
+    "bomId": "1210216-1",
+    "bomIds": [
+      "1210216-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.280Z",
+    "updatedAt": "2026-10-13T06:52:30.280Z"
+  },
+  {
+    "sapNo": "1210224",
+    "sapPo": "7052",
+    "bomFound": true,
+    "bomId": "1210224-1",
+    "bomIds": [
+      "1210224-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.878Z",
+    "updatedAt": "2026-10-13T06:45:10.878Z"
+  },
+  {
+    "sapNo": "1210228",
+    "sapPo": "7129",
+    "bomFound": true,
+    "bomId": "1210228-1",
+    "bomIds": [
+      "1210228-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.282Z",
+    "updatedAt": "2026-10-13T06:52:30.282Z"
+  },
+  {
+    "sapNo": "1210229",
+    "sapPo": "7052",
+    "bomFound": true,
+    "bomId": "1210229-1",
+    "bomIds": [
+      "1210229-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.879Z",
+    "updatedAt": "2026-10-13T06:45:10.879Z"
+  },
+  {
+    "sapNo": "4220319",
+    "sapPo": "7542",
+    "bomFound": true,
+    "bomId": "4220319-1",
+    "bomIds": [
+      "4220319-1"
+    ],
+    "brand": "LNA",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.176Z",
+    "updatedAt": "2026-10-13T07:40:03.176Z"
+  },
+  {
+    "sapNo": "4212949",
+    "sapPo": "7289",
+    "bomFound": true,
+    "bomId": "4212949-1",
+    "bomIds": [
+      "4212949-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.880Z",
+    "updatedAt": "2026-10-13T06:45:10.880Z"
+  },
+  {
+    "sapNo": "4212816",
+    "sapPo": "7329",
+    "bomFound": true,
+    "bomId": "4212816-1",
+    "bomIds": [
+      "4212816-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.880Z",
+    "updatedAt": "2026-10-13T06:45:10.880Z"
+  },
+  {
+    "sapNo": "4212815",
+    "sapPo": "7329",
+    "bomFound": true,
+    "bomId": "4212815-1",
+    "bomIds": [
+      "4212815-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.880Z",
+    "updatedAt": "2026-10-13T06:45:10.880Z"
+  },
+  {
+    "sapNo": "4212260",
+    "sapPo": "7329",
+    "bomFound": true,
+    "bomId": "4212260-1",
+    "bomIds": [
+      "4212260-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.881Z",
+    "updatedAt": "2026-10-13T06:45:10.881Z"
+  },
+  {
+    "sapNo": "4212818",
+    "sapPo": "7329",
+    "bomFound": true,
+    "bomId": "4212818-1",
+    "bomIds": [
+      "4212818-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.882Z",
+    "updatedAt": "2026-10-13T06:45:10.882Z"
+  },
+  {
+    "sapNo": "4212819",
+    "sapPo": "7329",
+    "bomFound": true,
+    "bomId": "4212819-1",
+    "bomIds": [
+      "4212819-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.883Z",
+    "updatedAt": "2026-10-13T06:45:10.883Z"
+  },
+  {
+    "sapNo": "4212844",
+    "sapPo": "7299",
+    "bomFound": true,
+    "bomId": "4212844-1",
+    "bomIds": [
+      "4212844-1"
+    ],
+    "brand": "LAG",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.369Z",
+    "updatedAt": "2026-10-13T06:58:45.369Z"
+  },
+  {
+    "sapNo": "4212283",
+    "sapPo": "7796",
+    "bomFound": true,
+    "bomId": "4212283-1",
+    "bomIds": [
+      "4212283-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.671Z",
+    "updatedAt": "2026-10-20T01:52:34.671Z"
+  },
+  {
+    "sapNo": "4212208",
+    "sapPo": "7147",
+    "bomFound": true,
+    "bomId": "4212208-1",
+    "bomIds": [
+      "4212208-1",
+      "4110016-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.885Z",
+    "updatedAt": "2026-10-13T06:45:10.885Z"
+  },
+  {
+    "sapNo": "4212821",
+    "sapPo": "7330",
+    "bomFound": true,
+    "bomId": "4212821-1",
+    "bomIds": [
+      "4212821-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.886Z",
+    "updatedAt": "2026-10-13T06:45:10.886Z"
+  },
+  {
+    "sapNo": "4212525",
+    "sapPo": "7351",
+    "bomFound": true,
+    "bomId": "4212525-1",
+    "bomIds": [
+      "4212525-1"
+    ],
+    "brand": "MZM",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Cancelled",
+      "Inspection_Assembly (6,000ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.887Z",
+    "updatedAt": "2026-10-13T06:45:10.887Z"
+  },
+  {
+    "sapNo": "4212004",
+    "sapPo": "7331",
+    "bomFound": true,
+    "bomId": "4212004-1",
+    "bomIds": [
+      "4212004-1"
+    ],
+    "brand": "BTR",
+    "brandSource": "MANUAL",
+    "productDescription": "-",
+    "productionModels": [
+      "Inspection_Assembly",
+      "STK+CTN_CHANGE CODE"
+    ],
+    "source": "MANUAL",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.887Z",
+    "updatedAt": "2026-10-13T06:45:10.887Z"
+  },
+  {
+    "sapNo": "4212280",
+    "sapPo": "7789",
+    "bomFound": true,
+    "bomId": "4212280-1",
+    "bomIds": [
+      "4212280-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,200 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.672Z",
+    "updatedAt": "2026-10-20T01:52:34.672Z"
+  },
+  {
+    "sapNo": "4212333",
+    "sapPo": "7789",
+    "bomFound": true,
+    "bomId": "4212333-1",
+    "bomIds": [
+      "4212333-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.673Z",
+    "updatedAt": "2026-10-20T01:52:34.673Z"
+  },
+  {
+    "sapNo": "4212335",
+    "sapPo": "7789",
+    "bomFound": true,
+    "bomId": "4212335-1",
+    "bomIds": [
+      "4212335-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.673Z",
+    "updatedAt": "2026-10-20T01:52:34.673Z"
+  },
+  {
+    "sapNo": "4212334",
+    "sapPo": "7789",
+    "bomFound": true,
+    "bomId": "4212334-1",
+    "bomIds": [
+      "4212334-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.673Z",
+    "updatedAt": "2026-10-20T01:52:34.673Z"
+  },
+  {
+    "sapNo": "4212910",
+    "sapPo": "7770",
+    "bomFound": true,
+    "bomId": "4212910-1",
+    "bomIds": [
+      "4212910-1"
+    ],
+    "brand": "SMT",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.597Z",
+    "updatedAt": "2026-10-15T06:56:56.597Z"
+  },
+  {
+    "sapNo": "4212912",
+    "sapPo": "7222",
+    "bomFound": true,
+    "bomId": "4212912-1",
+    "bomIds": [
+      "4212912-1"
+    ],
+    "brand": "SMT",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.890Z",
+    "updatedAt": "2026-10-13T06:45:10.890Z"
+  },
+  {
+    "sapNo": "4212843",
+    "sapPo": "7310",
+    "bomFound": true,
+    "bomId": "4212843-1",
+    "bomIds": [
+      "4212843-1"
+    ],
+    "brand": "LAG",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.891Z",
+    "updatedAt": "2026-10-13T06:45:10.891Z"
+  },
+  {
+    "sapNo": "4212743",
+    "sapPo": "7418",
+    "bomFound": true,
+    "bomId": "4212743-1",
+    "bomIds": [
+      "4212743-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.374Z",
+    "updatedAt": "2026-10-13T06:58:45.374Z"
+  },
+  {
+    "sapNo": "4212932",
+    "sapPo": "7140",
+    "bomFound": true,
+    "bomId": "4212932-1",
+    "bomIds": [
+      "4212932-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.891Z",
+    "updatedAt": "2026-10-13T06:45:10.891Z"
+  },
+  {
+    "sapNo": "4212933",
+    "sapPo": "7140",
+    "bomFound": true,
+    "bomId": "4212933-1",
+    "bomIds": [
+      "4212933-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.891Z",
+    "updatedAt": "2026-10-13T06:45:10.891Z"
+  },
+  {
+    "sapNo": "4212731",
+    "sapPo": "7140",
+    "bomFound": true,
+    "bomId": "4212731-1",
+    "bomIds": [
+      "4212731-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.892Z",
+    "updatedAt": "2026-10-13T06:45:10.892Z"
+  },
+  {
+    "sapNo": "4211998",
+    "sapPo": "7854",
+    "bomFound": true,
+    "bomId": "4211998-1",
+    "bomIds": [
+      "4211998-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "MANUAL",
+    "productDescription": "-",
+    "productionModels": [
+      "Inspection_Assembly",
+      "STK+CTN_CHANGE CODE",
+      "DIRECT"
+    ],
+    "source": "MANUAL",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.675Z",
+    "updatedAt": "2026-10-20T01:52:34.675Z"
+  },
+  {
+    "sapNo": "4212965",
+    "sapPo": "7332",
+    "bomFound": true,
+    "bomId": "4212965-1",
+    "bomIds": [
+      "4212965-1"
+    ],
+    "brand": "S",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (6,000ea:10 Man)",
+      "Cap+Applicator_Assembly Punching  (2,000 ea:12 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.376Z",
+    "updatedAt": "2026-10-13T06:58:45.376Z"
+  },
+  {
+    "sapNo": "4212911",
+    "sapPo": "7189",
+    "bomFound": true,
+    "bomId": "4212911-1",
+    "bomIds": [
+      "4212911-1"
+    ],
+    "brand": "SMT",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:45:10.892Z",
+    "updatedAt": "2026-10-13T06:45:10.892Z"
+  },
+  {
+    "sapNo": "4212827",
+    "sapPo": "7346",
+    "bomFound": true,
+    "bomId": "4212827-1",
+    "bomIds": [
+      "4212827-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "MANUAL",
+    "productDescription": "-",
+    "productionModels": [
+      "Inspection_Assembly",
+      "STK+CTN_CHANGE CODE"
+    ],
+    "source": "MANUAL",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.377Z",
+    "updatedAt": "2026-10-13T06:58:45.377Z"
+  },
+  {
+    "sapNo": "1210178",
+    "sapPo": "6788",
+    "bomFound": true,
+    "bomId": "1210178-1",
+    "bomIds": [
+      "1210178-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.269Z",
+    "updatedAt": "2026-10-13T06:52:30.269Z"
+  },
+  {
+    "sapNo": "1210183",
+    "sapPo": "6788",
+    "bomFound": true,
+    "bomId": "1210183-1",
+    "bomIds": [
+      "1210183-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.272Z",
+    "updatedAt": "2026-10-13T06:52:30.272Z"
+  },
+  {
+    "sapNo": "1210188",
+    "sapPo": "6788",
+    "bomFound": true,
+    "bomId": "1210188-1",
+    "bomIds": [
+      "1210188-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.273Z",
+    "updatedAt": "2026-10-13T06:52:30.273Z"
+  },
+  {
+    "sapNo": "1210312",
+    "sapPo": "6788",
+    "bomFound": true,
+    "bomId": "1210312-1",
+    "bomIds": [
+      "1210312-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.274Z",
+    "updatedAt": "2026-10-13T06:52:30.274Z"
+  },
+  {
+    "sapNo": "1210217",
+    "sapPo": "#N/A",
+    "bomFound": true,
+    "bomId": "1210217-1",
+    "bomIds": [
+      "1210217-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.275Z",
+    "updatedAt": "2026-10-13T06:52:30.275Z"
+  },
+  {
+    "sapNo": "1210221",
+    "sapPo": "#N/A",
+    "bomFound": true,
+    "bomId": "1210221-1",
+    "bomIds": [
+      "1210221-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.275Z",
+    "updatedAt": "2026-10-13T06:52:30.275Z"
+  },
+  {
+    "sapNo": "1210179",
+    "sapPo": "7128",
+    "bomFound": true,
+    "bomId": "1210179-1",
+    "bomIds": [
+      "1210179-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.276Z",
+    "updatedAt": "2026-10-13T06:52:30.276Z"
+  },
+  {
+    "sapNo": "1210180",
+    "sapPo": "7128",
+    "bomFound": true,
+    "bomId": "1210180-1",
+    "bomIds": [
+      "1210180-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.277Z",
+    "updatedAt": "2026-10-13T06:52:30.277Z"
+  },
+  {
+    "sapNo": "1210219",
+    "sapPo": "7052",
+    "bomFound": true,
+    "bomId": "1210219-1",
+    "bomIds": [
+      "1210219-1",
+      "1110765-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.279Z",
+    "updatedAt": "2026-10-13T06:52:30.279Z"
+  },
+  {
+    "sapNo": "1210218",
+    "sapPo": "7129",
+    "bomFound": true,
+    "bomId": "1210218-1",
+    "bomIds": [
+      "1210218-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.280Z",
+    "updatedAt": "2026-10-13T06:52:30.280Z"
+  },
+  {
+    "sapNo": "1210225",
+    "sapPo": "7129",
+    "bomFound": true,
+    "bomId": "1210225-1",
+    "bomIds": [
+      "1210225-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.281Z",
+    "updatedAt": "2026-10-13T06:52:30.281Z"
+  },
+  {
+    "sapNo": "1210226",
+    "sapPo": "7129",
+    "bomFound": true,
+    "bomId": "1210226-1",
+    "bomIds": [
+      "1210226-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.281Z",
+    "updatedAt": "2026-10-13T06:52:30.281Z"
+  },
+  {
+    "sapNo": "1210227",
+    "sapPo": "7129",
+    "bomFound": true,
+    "bomId": "1210227-1",
+    "bomIds": [
+      "1210227-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.281Z",
+    "updatedAt": "2026-10-13T06:52:30.281Z"
+  },
+  {
+    "sapNo": "2210244",
+    "sapPo": "7103",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1110255-1",
+      "1110502-1"
+    ],
+    "brand": "M",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.282Z",
+    "updatedAt": "2026-10-13T06:52:30.282Z"
+  },
+  {
+    "sapNo": "2210245",
+    "sapPo": "7103",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1110256-1",
+      "1110503-1"
+    ],
+    "brand": "M",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.283Z",
+    "updatedAt": "2026-10-13T06:52:30.283Z"
+  },
+  {
+    "sapNo": "2210723",
+    "sapPo": "7344",
+    "bomFound": true,
+    "bomId": "2210723-1",
+    "bomIds": [
+      "2210723-1"
+    ],
+    "brand": "TMN",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.284Z",
+    "updatedAt": "2026-10-13T06:52:30.284Z"
+  },
+  {
+    "sapNo": "4212538",
+    "sapPo": "7326",
+    "bomFound": true,
+    "bomId": "4212538-1",
+    "bomIds": [
+      "4212538-1"
+    ],
+    "brand": "B",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.284Z",
+    "updatedAt": "2026-10-13T06:52:30.284Z"
+  },
+  {
+    "sapNo": "4212559",
+    "sapPo": "7326",
+    "bomFound": true,
+    "bomId": "4212559-1",
+    "bomIds": [
+      "4212559-1"
+    ],
+    "brand": "B",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.285Z",
+    "updatedAt": "2026-10-13T06:52:30.285Z"
+  },
+  {
+    "sapNo": "4212537",
+    "sapPo": "7326",
+    "bomFound": true,
+    "bomId": "4212537-1",
+    "bomIds": [
+      "4212537-1"
+    ],
+    "brand": "B",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,200 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.285Z",
+    "updatedAt": "2026-10-13T06:52:30.285Z"
+  },
+  {
+    "sapNo": "4212944",
+    "sapPo": "7318",
+    "bomFound": true,
+    "bomId": "4212944-1",
+    "bomIds": [
+      "4212944-1"
+    ],
+    "brand": "BTR",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,200 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.286Z",
+    "updatedAt": "2026-10-13T06:52:30.286Z"
+  },
+  {
+    "sapNo": "4212945",
+    "sapPo": "7318",
+    "bomFound": true,
+    "bomId": "4212945-1",
+    "bomIds": [
+      "4212945-1"
+    ],
+    "brand": "BTR",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.362Z",
+    "updatedAt": "2026-10-13T06:58:45.362Z"
+  },
+  {
+    "sapNo": "4212946",
+    "sapPo": "7318",
+    "bomFound": true,
+    "bomId": "4212946-1",
+    "bomIds": [
+      "4212946-1"
+    ],
+    "brand": "BTR",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.287Z",
+    "updatedAt": "2026-10-13T06:52:30.287Z"
+  },
+  {
+    "sapNo": "4212831",
+    "sapPo": "7054",
+    "bomFound": true,
+    "bomId": "4212831-1",
+    "bomIds": [
+      "4212831-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:52:30.287Z",
+    "updatedAt": "2026-10-13T06:52:30.287Z"
+  },
+  {
+    "sapNo": "4211918",
+    "sapPo": "7172",
+    "bomFound": true,
+    "bomId": "4211918-1",
+    "bomIds": [
+      "4211918-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,200 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:17:38.915Z",
+    "updatedAt": "2026-10-13T07:17:38.915Z"
+  },
+  {
+    "sapNo": "4212966",
+    "sapPo": "7325",
+    "bomFound": true,
+    "bomId": "4212966-1",
+    "bomIds": [
+      "4212966-1"
+    ],
+    "brand": "B",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.365Z",
+    "updatedAt": "2026-10-13T06:58:45.365Z"
+  },
+  {
+    "sapNo": "4212967",
+    "sapPo": "7325",
+    "bomFound": true,
+    "bomId": "4212967-1",
+    "bomIds": [
+      "4212967-1"
+    ],
+    "brand": "B",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.366Z",
+    "updatedAt": "2026-10-13T06:58:45.366Z"
+  },
+  {
+    "sapNo": "4212968",
+    "sapPo": "7325",
+    "bomFound": true,
+    "bomId": "4212968-1",
+    "bomIds": [
+      "4212968-1"
+    ],
+    "brand": "B",
+    "brandSource": "SAP_PO_FALLBACK",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.367Z",
+    "updatedAt": "2026-10-13T06:58:45.367Z"
+  },
+  {
+    "sapNo": "4220394",
+    "sapPo": "7561 7695",
+    "bomFound": true,
+    "bomId": "4220394-1",
+    "bomIds": [
+      "4220394-1"
+    ],
+    "brand": "LNA",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.175Z",
+    "updatedAt": "2026-10-13T07:40:03.175Z"
+  },
+  {
+    "sapNo": "4212947",
+    "sapPo": "7697",
+    "bomFound": true,
+    "bomId": "4212947-1",
+    "bomIds": [
+      "4212947-1"
+    ],
+    "brand": "BTR",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.181Z",
+    "updatedAt": "2026-10-13T07:40:03.181Z"
+  },
+  {
+    "sapNo": "4212560",
+    "sapPo": "7351",
+    "bomFound": true,
+    "bomId": "4212560-1",
+    "bomIds": [
+      "4212560-1"
+    ],
+    "brand": "B",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.371Z",
+    "updatedAt": "2026-10-13T06:58:45.371Z"
+  },
+  {
+    "sapNo": "4212960",
+    "sapPo": "7352",
+    "bomFound": true,
+    "bomId": "4212960-1",
+    "bomIds": [
+      "4212960-1"
+    ],
+    "brand": "MDA",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.372Z",
+    "updatedAt": "2026-10-13T06:58:45.372Z"
+  },
+  {
+    "sapNo": "4212961",
+    "sapPo": "7352",
+    "bomFound": true,
+    "bomId": "4212961-1",
+    "bomIds": [
+      "4212961-1"
+    ],
+    "brand": "MDA",
+    "brandSource": "SAP_PO_FALLBACK",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.372Z",
+    "updatedAt": "2026-10-13T06:58:45.372Z"
+  },
+  {
+    "sapNo": "4212959",
+    "sapPo": "7352",
+    "bomFound": true,
+    "bomId": "4212959-1",
+    "bomIds": [
+      "4212959-1"
+    ],
+    "brand": "MDA",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.373Z",
+    "updatedAt": "2026-10-13T06:58:45.373Z"
+  },
+  {
+    "sapNo": "4212756",
+    "sapPo": "7350",
+    "bomFound": true,
+    "bomId": "4212756-1",
+    "bomIds": [
+      "4212756-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.373Z",
+    "updatedAt": "2026-10-13T06:58:45.373Z"
+  },
+  {
+    "sapNo": "4212758",
+    "sapPo": "7350",
+    "bomFound": true,
+    "bomId": "4212758-1",
+    "bomIds": [
+      "4212758-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.374Z",
+    "updatedAt": "2026-10-13T06:58:45.374Z"
+  },
+  {
+    "sapNo": "4212964",
+    "sapPo": "7327",
+    "bomFound": true,
+    "bomId": "4212964-1",
+    "bomIds": [
+      "4212964-1"
+    ],
+    "brand": "S",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T06:58:45.375Z",
+    "updatedAt": "2026-10-13T06:58:45.375Z"
+  },
+  {
+    "sapNo": "4212985",
+    "sapPo": "7405",
+    "bomFound": true,
+    "bomId": "4212985-1",
+    "bomIds": [
+      "4212985-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:05:12.364Z",
+    "updatedAt": "2026-10-13T07:05:12.364Z"
+  },
+  {
+    "sapNo": "4212982",
+    "sapPo": "7405",
+    "bomFound": true,
+    "bomId": "4212982-1",
+    "bomIds": [
+      "4212982-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:05:12.365Z",
+    "updatedAt": "2026-10-13T07:05:12.365Z"
+  },
+  {
+    "sapNo": "4212984",
+    "sapPo": "7405",
+    "bomFound": true,
+    "bomId": "4212984-1",
+    "bomIds": [
+      "4212984-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:05:12.366Z",
+    "updatedAt": "2026-10-13T07:05:12.366Z"
+  },
+  {
+    "sapNo": "4212981",
+    "sapPo": "7405",
+    "bomFound": true,
+    "bomId": "4212981-1",
+    "bomIds": [
+      "4212981-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:05:12.367Z",
+    "updatedAt": "2026-10-13T07:05:12.367Z"
+  },
+  {
+    "sapNo": "4212983",
+    "sapPo": "7405",
+    "bomFound": true,
+    "bomId": "4212983-1",
+    "bomIds": [
+      "4212983-1"
+    ],
+    "brand": "R",
+    "brandSource": "SAP_PO_FALLBACK",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:05:12.367Z",
+    "updatedAt": "2026-10-13T07:05:12.367Z"
+  },
+  {
+    "sapNo": "4260024",
+    "sapPo": "7340",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1160004-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:05:12.369Z",
+    "updatedAt": "2026-10-13T07:05:12.369Z"
+  },
+  {
+    "sapNo": "4260025",
+    "sapPo": "7340",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1160004-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:05:12.380Z",
+    "updatedAt": "2026-10-13T07:05:12.380Z"
+  },
+  {
+    "sapNo": "4212120",
+    "sapPo": "7248",
+    "bomFound": true,
+    "bomId": "4212120-1",
+    "bomIds": [
+      "4212120-1"
+    ],
+    "brand": "BEW",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,200 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.173Z",
+    "updatedAt": "2026-10-13T07:40:03.173Z"
+  },
+  {
+    "sapNo": "2210480",
+    "sapPo": "7521",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1110278-1",
+      "1110477-1",
+      "1110914-1"
+    ],
+    "brand": "BEW",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.761Z",
+    "updatedAt": "2026-10-13T07:13:00.761Z"
+  },
+  {
+    "sapNo": "2210481",
+    "sapPo": "7521",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1110478-1",
+      "1110915-1"
+    ],
+    "brand": "BEW",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.762Z",
+    "updatedAt": "2026-10-13T07:13:00.762Z"
+  },
+  {
+    "sapNo": "4212955",
+    "sapPo": "7502",
+    "bomFound": true,
+    "bomId": "4212955-1",
+    "bomIds": [
+      "4212955-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "Cancelled",
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,200 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.763Z",
+    "updatedAt": "2026-10-13T07:13:00.763Z"
+  },
+  {
+    "sapNo": "4212956",
+    "sapPo": "7502",
+    "bomFound": true,
+    "bomId": "4212956-1",
+    "bomIds": [
+      "4212956-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.763Z",
+    "updatedAt": "2026-10-13T07:13:00.763Z"
+  },
+  {
+    "sapNo": "4212957",
+    "sapPo": "7502",
+    "bomFound": true,
+    "bomId": "4212957-1",
+    "bomIds": [
+      "4212957-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.764Z",
+    "updatedAt": "2026-10-13T07:13:00.764Z"
+  },
+  {
+    "sapNo": "4212294",
+    "sapPo": "7477",
+    "bomFound": true,
+    "bomId": "4212294-1",
+    "bomIds": [
+      "4212294-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.764Z",
+    "updatedAt": "2026-10-13T07:13:00.764Z"
+  },
+  {
+    "sapNo": "4212286",
+    "sapPo": "7477",
+    "bomFound": true,
+    "bomId": "4212286-1",
+    "bomIds": [
+      "4212286-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.765Z",
+    "updatedAt": "2026-10-13T07:13:00.765Z"
+  },
+  {
+    "sapNo": "4212293",
+    "sapPo": "7477",
+    "bomFound": true,
+    "bomId": "4212293-1",
+    "bomIds": [
+      "4212293-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "DIRECT (120,000 ea.:1man)",
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.774Z",
+    "updatedAt": "2026-10-13T07:13:00.774Z"
+  },
+  {
+    "sapNo": "4220433",
+    "sapPo": "7522",
+    "bomFound": true,
+    "bomId": "4220433-1",
+    "bomIds": [
+      "4220433-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.775Z",
+    "updatedAt": "2026-10-13T07:13:00.775Z"
+  },
+  {
+    "sapNo": "4220435",
+    "sapPo": "7522",
+    "bomFound": true,
+    "bomId": "4220435-1",
+    "bomIds": [
+      "4220435-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.776Z",
+    "updatedAt": "2026-10-13T07:13:00.776Z"
+  },
+  {
+    "sapNo": "4220437",
+    "sapPo": "7522",
+    "bomFound": true,
+    "bomId": "4220437-1",
+    "bomIds": [
+      "4220437-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.776Z",
+    "updatedAt": "2026-10-13T07:13:00.776Z"
+  },
+  {
+    "sapNo": "4220443",
+    "sapPo": "7579",
+    "bomFound": true,
+    "bomId": "4220443-1",
+    "bomIds": [
+      "4220443-1"
+    ],
+    "brand": "",
+    "brandSource": "UNRESOLVED",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:13:00.777Z",
+    "updatedAt": "2026-10-13T07:13:00.777Z"
+  },
+  {
+    "sapNo": "4220432",
+    "sapPo": "7783",
+    "bomFound": true,
+    "bomId": "4220432-1",
+    "bomIds": [
+      "4220432-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.672Z",
+    "updatedAt": "2026-10-20T01:52:34.672Z"
+  },
+  {
+    "sapNo": "4220434",
+    "sapPo": "7522",
+    "bomFound": true,
+    "bomId": "4220434-1",
+    "bomIds": [
+      "4220434-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:17:38.917Z",
+    "updatedAt": "2026-10-13T07:17:38.917Z"
+  },
+  {
+    "sapNo": "4220436",
+    "sapPo": "7522",
+    "bomFound": true,
+    "bomId": "4220436-1",
+    "bomIds": [
+      "4220436-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:17:38.918Z",
+    "updatedAt": "2026-10-13T07:17:38.918Z"
+  },
+  {
+    "sapNo": "4220415",
+    "sapPo": "7221",
+    "bomFound": true,
+    "bomId": "4220415-1",
+    "bomIds": [
+      "4220415-1"
+    ],
+    "brand": "TIG",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:17:38.918Z",
+    "updatedAt": "2026-10-13T07:17:38.918Z"
+  },
+  {
+    "sapNo": "4213043",
+    "sapPo": "7553",
+    "bomFound": true,
+    "bomId": "4213043-1",
+    "bomIds": [
+      "4213043-1"
+    ],
+    "brand": "SNG",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:17:38.919Z",
+    "updatedAt": "2026-10-13T07:17:38.919Z"
+  },
+  {
+    "sapNo": "2210884",
+    "sapPo": "7450",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111012-1",
+      "1111028-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.161Z",
+    "updatedAt": "2026-10-13T07:40:03.161Z"
+  },
+  {
+    "sapNo": "2210885",
+    "sapPo": "7450",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111013-1",
+      "1111029-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.164Z",
+    "updatedAt": "2026-10-13T07:40:03.164Z"
+  },
+  {
+    "sapNo": "2210892",
+    "sapPo": "7450",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111020-1",
+      "1111036-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.165Z",
+    "updatedAt": "2026-10-13T07:40:03.165Z"
+  },
+  {
+    "sapNo": "2210886",
+    "sapPo": "7450",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111014-1",
+      "1111030-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.168Z",
+    "updatedAt": "2026-10-13T07:40:03.168Z"
+  },
+  {
+    "sapNo": "2210893",
+    "sapPo": "7450",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111021-1",
+      "1111037-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.169Z",
+    "updatedAt": "2026-10-13T07:40:03.169Z"
+  },
+  {
+    "sapNo": "2210894",
+    "sapPo": "7450",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111022-1",
+      "1111038-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.169Z",
+    "updatedAt": "2026-10-13T07:40:03.169Z"
+  },
+  {
+    "sapNo": "4240091",
+    "sapPo": "7512",
+    "bomFound": true,
+    "bomId": "4240091-1",
+    "bomIds": [
+      "4240091-1"
+    ],
+    "brand": "ATS",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.170Z",
+    "updatedAt": "2026-10-13T07:40:03.170Z"
+  },
+  {
+    "sapNo": "4240268",
+    "sapPo": "7512",
+    "bomFound": true,
+    "bomId": "4240268-1",
+    "bomIds": [
+      "4240268-1"
+    ],
+    "brand": "ATS",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.170Z",
+    "updatedAt": "2026-10-13T07:40:03.170Z"
+  },
+  {
+    "sapNo": "4240269",
+    "sapPo": "7512",
+    "bomFound": true,
+    "bomId": "4240269-1",
+    "bomIds": [
+      "4240269-1"
+    ],
+    "brand": "ATS",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.172Z",
+    "updatedAt": "2026-10-13T07:40:03.172Z"
+  },
+  {
+    "sapNo": "4240270",
+    "sapPo": "7512",
+    "bomFound": true,
+    "bomId": "4240270-1",
+    "bomIds": [
+      "4240270-1"
+    ],
+    "brand": "ATS",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.172Z",
+    "updatedAt": "2026-10-13T07:40:03.172Z"
+  },
+  {
+    "sapNo": "4213024",
+    "sapPo": "7558",
+    "bomFound": true,
+    "bomId": "4213024-1",
+    "bomIds": [
+      "4213024-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,200 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.173Z",
+    "updatedAt": "2026-10-13T07:40:03.173Z"
+  },
+  {
+    "sapNo": "4213026",
+    "sapPo": "7558",
+    "bomFound": true,
+    "bomId": "4213026-1",
+    "bomIds": [
+      "4213026-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.174Z",
+    "updatedAt": "2026-10-13T07:40:03.174Z"
+  },
+  {
+    "sapNo": "4213025",
+    "sapPo": "7558",
+    "bomFound": true,
+    "bomId": "4213025-1",
+    "bomIds": [
+      "4213025-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.174Z",
+    "updatedAt": "2026-10-13T07:40:03.174Z"
+  },
+  {
+    "sapNo": "4220440",
+    "sapPo": "7561",
+    "bomFound": true,
+    "bomId": "4220440-1",
+    "bomIds": [
+      "4220440-1"
+    ],
+    "brand": "LNA",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.175Z",
+    "updatedAt": "2026-10-13T07:40:03.175Z"
+  },
+  {
+    "sapNo": "4220439",
+    "sapPo": "7554",
+    "bomFound": true,
+    "bomId": "4220439-1",
+    "bomIds": [
+      "4220439-1"
+    ],
+    "brand": "",
+    "brandSource": "UNRESOLVED",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,250 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.177Z",
+    "updatedAt": "2026-10-13T07:40:03.177Z"
+  },
+  {
+    "sapNo": "4213030",
+    "sapPo": "7533",
+    "bomFound": true,
+    "bomId": "4213030-1",
+    "bomIds": [
+      "4213030-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.178Z",
+    "updatedAt": "2026-10-13T07:40:03.178Z"
+  },
+  {
+    "sapNo": "4213031",
+    "sapPo": "7849",
+    "bomFound": true,
+    "bomId": "4213031-1",
+    "bomIds": [
+      "4213031-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.596Z",
+    "updatedAt": "2026-10-15T06:56:56.596Z"
+  },
+  {
+    "sapNo": "4213032",
+    "sapPo": "7736",
+    "bomFound": true,
+    "bomId": "4213032-1",
+    "bomIds": [
+      "4213032-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "MANUAL",
+    "productDescription": "-",
+    "productionModels": [
+      "Inspection_Assembly",
+      "STK+CTN_CHANGE CODE",
+      "DIRECT"
+    ],
+    "source": "MANUAL",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.596Z",
+    "updatedAt": "2026-10-15T06:56:56.596Z"
+  },
+  {
+    "sapNo": "4213033",
+    "sapPo": "7533",
+    "bomFound": true,
+    "bomId": "4213033-1",
+    "bomIds": [
+      "4213033-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.179Z",
+    "updatedAt": "2026-10-13T07:40:03.179Z"
+  },
+  {
+    "sapNo": "4213034",
+    "sapPo": "7736",
+    "bomFound": true,
+    "bomId": "4213034-1",
+    "bomIds": [
+      "4213034-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.596Z",
+    "updatedAt": "2026-10-15T06:56:56.596Z"
+  },
+  {
+    "sapNo": "4213028",
+    "sapPo": "",
+    "bomFound": true,
+    "bomId": "4213028-1",
+    "bomIds": [
+      "4213028-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (2,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.671Z",
+    "updatedAt": "2026-10-20T01:52:34.671Z"
+  },
+  {
+    "sapNo": "4213027",
+    "sapPo": "7567",
+    "bomFound": true,
+    "bomId": "4213027-1",
+    "bomIds": [
+      "4213027-1"
+    ],
+    "brand": "R",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.181Z",
+    "updatedAt": "2026-10-13T07:40:03.181Z"
+  },
+  {
+    "sapNo": "4212024",
+    "sapPo": "7583",
+    "bomFound": true,
+    "bomId": "4212024-1",
+    "bomIds": [
+      "4212024-1"
+    ],
+    "brand": "INN",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.184Z",
+    "updatedAt": "2026-10-13T07:40:03.184Z"
+  },
+  {
+    "sapNo": "4212697",
+    "sapPo": "7797",
+    "bomFound": true,
+    "bomId": "4212697-1",
+    "bomIds": [
+      "4212697-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.675Z",
+    "updatedAt": "2026-10-20T01:52:34.675Z"
+  },
+  {
+    "sapNo": "4213056",
+    "sapPo": "7592",
+    "bomFound": true,
+    "bomId": "4213056-1",
+    "bomIds": [
+      "4213056-1"
+    ],
+    "brand": "INN",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.185Z",
+    "updatedAt": "2026-10-13T07:40:03.185Z"
+  },
+  {
+    "sapNo": "4213015",
+    "sapPo": "7573",
+    "bomFound": true,
+    "bomId": "4213015-1",
+    "bomIds": [
+      "4213015-1"
+    ],
+    "brand": "CHM",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-13T07:40:03.185Z",
+    "updatedAt": "2026-10-13T07:40:03.185Z"
+  },
+  {
+    "sapNo": "4311144",
+    "sapPo": "POD2601103",
+    "bomFound": true,
+    "bomId": "4311144-1",
+    "bomIds": [
+      "4311144-1"
+    ],
+    "brand": "BTL",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.590Z",
+    "updatedAt": "2026-10-15T06:56:56.590Z"
+  },
+  {
+    "sapNo": "4311145",
+    "sapPo": "POD2601103",
+    "bomFound": true,
+    "bomId": "4311145-1",
+    "bomIds": [
+      "4311145-1"
+    ],
+    "brand": "BTL",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.591Z",
+    "updatedAt": "2026-10-15T06:56:56.591Z"
+  },
+  {
+    "sapNo": "4311146",
+    "sapPo": "POD2601103",
+    "bomFound": true,
+    "bomId": "4311146-1",
+    "bomIds": [
+      "4311146-1"
+    ],
+    "brand": "BTL",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.591Z",
+    "updatedAt": "2026-10-15T06:56:56.591Z"
+  },
+  {
+    "sapNo": "4311147",
+    "sapPo": "POD2601104",
+    "bomFound": true,
+    "bomId": "4311147-1",
+    "bomIds": [
+      "4311147-1"
+    ],
+    "brand": "BTL",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.591Z",
+    "updatedAt": "2026-10-15T06:56:56.591Z"
+  },
+  {
+    "sapNo": "4311148",
+    "sapPo": "POD2601104",
+    "bomFound": true,
+    "bomId": "4311148-1",
+    "bomIds": [
+      "4311148-1"
+    ],
+    "brand": "BTL",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.592Z",
+    "updatedAt": "2026-10-15T06:56:56.592Z"
+  },
+  {
+    "sapNo": "4311151",
+    "sapPo": "POD2601105",
+    "bomFound": true,
+    "bomId": "4311151-1",
+    "bomIds": [
+      "4311151-1"
+    ],
+    "brand": "BTL",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.592Z",
+    "updatedAt": "2026-10-15T06:56:56.592Z"
+  },
+  {
+    "sapNo": "4311150",
+    "sapPo": "POD2601105",
+    "bomFound": true,
+    "bomId": "4311150-1",
+    "bomIds": [
+      "4311150-1"
+    ],
+    "brand": "BTL",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.593Z",
+    "updatedAt": "2026-10-15T06:56:56.593Z"
+  },
+  {
+    "sapNo": "4311152",
+    "sapPo": "POD2601106",
+    "bomFound": true,
+    "bomId": "4311152-1",
+    "bomIds": [
+      "4311152-1"
+    ],
+    "brand": "BTL",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.593Z",
+    "updatedAt": "2026-10-15T06:56:56.593Z"
+  },
+  {
+    "sapNo": "4212854",
+    "sapPo": "7847",
+    "bomFound": true,
+    "bomId": "4212854-1",
+    "bomIds": [
+      "4212854-1"
+    ],
+    "brand": "SKC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (1,200 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.594Z",
+    "updatedAt": "2026-10-15T06:56:56.594Z"
+  },
+  {
+    "sapNo": "4212851",
+    "sapPo": "7786",
+    "bomFound": true,
+    "bomId": "4212851-1",
+    "bomIds": [
+      "4212851-1"
+    ],
+    "brand": "BTR",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.594Z",
+    "updatedAt": "2026-10-15T06:56:56.594Z"
+  },
+  {
+    "sapNo": "4212852",
+    "sapPo": "7786",
+    "bomFound": true,
+    "bomId": "4212852-1",
+    "bomIds": [
+      "4212852-1"
+    ],
+    "brand": "BTR",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.594Z",
+    "updatedAt": "2026-10-15T06:56:56.594Z"
+  },
+  {
+    "sapNo": "4212853",
+    "sapPo": "7786",
+    "bomFound": true,
+    "bomId": "4212853-1",
+    "bomIds": [
+      "4212853-1"
+    ],
+    "brand": "BTR",
+    "brandSource": "SAP_PO_FALLBACK",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.595Z",
+    "updatedAt": "2026-10-15T06:56:56.595Z"
+  },
+  {
+    "sapNo": "4260027",
+    "sapPo": "7672",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1160005-1"
+    ],
+    "brand": "GTC",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.595Z",
+    "updatedAt": "2026-10-15T06:56:56.595Z"
+  },
+  {
+    "sapNo": "4213053",
+    "sapPo": "7707",
+    "bomFound": true,
+    "bomId": "4213053-1",
+    "bomIds": [
+      "4213053-1"
+    ],
+    "brand": "FUT",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.595Z",
+    "updatedAt": "2026-10-15T06:56:56.595Z"
+  },
+  {
+    "sapNo": "4212901",
+    "sapPo": "7732",
+    "bomFound": true,
+    "bomId": "4212901-1",
+    "bomIds": [
+      "4212901-1"
+    ],
+    "brand": "",
+    "brandSource": "UNRESOLVED",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (6,000ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-15T06:56:56.596Z",
+    "updatedAt": "2026-10-15T06:56:56.596Z"
+  },
+  {
+    "sapNo": "4220429",
+    "sapPo": "7776",
+    "bomFound": true,
+    "bomId": "4220429-1",
+    "bomIds": [
+      "4220429-1"
+    ],
+    "brand": "MZM",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.674Z",
+    "updatedAt": "2026-10-20T01:52:34.674Z"
+  },
+  {
+    "sapNo": "4220431",
+    "sapPo": "7776",
+    "bomFound": true,
+    "bomId": "4220431-1",
+    "bomIds": [
+      "4220431-1"
+    ],
+    "brand": "MZM",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.674Z",
+    "updatedAt": "2026-10-20T01:52:34.674Z"
+  },
+  {
+    "sapNo": "2210888",
+    "sapPo": "7450",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111016-1",
+      "1111032-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.664Z",
+    "updatedAt": "2026-10-20T01:52:34.664Z"
+  },
+  {
+    "sapNo": "2210889",
+    "sapPo": "7450",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111017-1",
+      "1111033-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.665Z",
+    "updatedAt": "2026-10-20T01:52:34.665Z"
+  },
+  {
+    "sapNo": "2210924",
+    "sapPo": "7511",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111064-1",
+      "1111067-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.666Z",
+    "updatedAt": "2026-10-20T01:52:34.666Z"
+  },
+  {
+    "sapNo": "2210925",
+    "sapPo": "7511",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111065-1",
+      "1111068-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.668Z",
+    "updatedAt": "2026-10-20T01:52:34.668Z"
+  },
+  {
+    "sapNo": "2210926",
+    "sapPo": "7511",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1111066-1",
+      "1111069-1"
+    ],
+    "brand": "TPO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.668Z",
+    "updatedAt": "2026-10-20T01:52:34.668Z"
+  },
+  {
+    "sapNo": "2210801",
+    "sapPo": "7657",
+    "bomFound": true,
+    "bomId": "",
+    "bomIds": [
+      "1110712-1"
+    ],
+    "brand": "MLO",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.669Z",
+    "updatedAt": "2026-10-20T01:52:34.669Z"
+  },
+  {
+    "sapNo": "4220338",
+    "sapPo": "7674",
+    "bomFound": true,
+    "bomId": "4220338-1",
+    "bomIds": [
+      "4220338-1"
+    ],
+    "brand": "MJI",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.670Z",
+    "updatedAt": "2026-10-20T01:52:34.670Z"
+  },
+  {
+    "sapNo": "4220337",
+    "sapPo": "7674",
+    "bomFound": true,
+    "bomId": "4220337-1",
+    "bomIds": [
+      "4220337-1"
+    ],
+    "brand": "MJI",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "Inspection_Assembly (1,875 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.670Z",
+    "updatedAt": "2026-10-20T01:52:34.670Z"
+  },
+  {
+    "sapNo": "4220339",
+    "sapPo": "7674",
+    "bomFound": true,
+    "bomId": "4220339-1",
+    "bomIds": [
+      "4220339-1"
+    ],
+    "brand": "COMMON",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.670Z",
+    "updatedAt": "2026-10-20T01:52:34.670Z"
+  },
+  {
+    "sapNo": "4212724",
+    "sapPo": "7820",
+    "bomFound": true,
+    "bomId": "4212724-1",
+    "bomIds": [
+      "4212724-1"
+    ],
+    "brand": "NMI",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "Inspection_Assembly (5,000 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.671Z",
+    "updatedAt": "2026-10-20T01:52:34.671Z"
+  },
+  {
+    "sapNo": "4212918",
+    "sapPo": "7210",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.672Z",
+    "updatedAt": "2026-10-20T01:52:34.672Z"
+  },
+  {
+    "sapNo": "4213014",
+    "sapPo": "7808",
+    "bomFound": true,
+    "bomId": "4213014-1",
+    "bomIds": [
+      "4213014-1"
+    ],
+    "brand": "CHM",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.674Z",
+    "updatedAt": "2026-10-20T01:52:34.674Z"
+  },
+  {
+    "sapNo": "4213016",
+    "sapPo": "7808",
+    "bomFound": true,
+    "bomId": "4213016-1",
+    "bomIds": [
+      "4213016-1"
+    ],
+    "brand": "CHM",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.675Z",
+    "updatedAt": "2026-10-20T01:52:34.675Z"
+  },
+  {
+    "sapNo": "8200287",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.676Z",
+    "updatedAt": "2026-10-20T01:52:34.676Z"
+  },
+  {
+    "sapNo": "8200288",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.676Z",
+    "updatedAt": "2026-10-20T01:52:34.676Z"
+  },
+  {
+    "sapNo": "8200289",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.677Z",
+    "updatedAt": "2026-10-20T01:52:34.677Z"
+  },
+  {
+    "sapNo": "8200290",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.677Z",
+    "updatedAt": "2026-10-20T01:52:34.677Z"
+  },
+  {
+    "sapNo": "8200291",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.684Z",
+    "updatedAt": "2026-10-20T01:52:34.684Z"
+  },
+  {
+    "sapNo": "8200292",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.685Z",
+    "updatedAt": "2026-10-20T01:52:34.685Z"
+  },
+  {
+    "sapNo": "8200293",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.686Z",
+    "updatedAt": "2026-10-20T01:52:34.686Z"
+  },
+  {
+    "sapNo": "8200294",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.687Z",
+    "updatedAt": "2026-10-20T01:52:34.687Z"
+  },
+  {
+    "sapNo": "8200295",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.687Z",
+    "updatedAt": "2026-10-20T01:52:34.687Z"
+  },
+  {
+    "sapNo": "8200296",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.688Z",
+    "updatedAt": "2026-10-20T01:52:34.688Z"
+  },
+  {
+    "sapNo": "8200297",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.690Z",
+    "updatedAt": "2026-10-20T01:52:34.690Z"
+  },
+  {
+    "sapNo": "8200298",
+    "sapPo": "7864",
+    "bomFound": false,
+    "bomId": "",
+    "bomIds": [],
+    "brand": "",
+    "brandSource": "",
+    "productDescription": "",
+    "productionModels": [],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.691Z",
+    "updatedAt": "2026-10-20T01:52:34.691Z"
+  },
+  {
+    "sapNo": "42711904",
+    "sapPo": "7788",
+    "bomFound": true,
+    "bomId": "42711904-1",
+    "bomIds": [
+      "42711904-1"
+    ],
+    "brand": "DRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)",
+      "Inspection_Assembly (4,500 ea:10 Man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.691Z",
+    "updatedAt": "2026-10-20T01:52:34.691Z"
+  },
+  {
+    "sapNo": "42711907",
+    "sapPo": "7794",
+    "bomFound": true,
+    "bomId": "42711907-1",
+    "bomIds": [
+      "42711907-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.692Z",
+    "updatedAt": "2026-10-20T01:52:34.692Z"
+  },
+  {
+    "sapNo": "42711908",
+    "sapPo": "7794",
+    "bomFound": true,
+    "bomId": "42711908-1",
+    "bomIds": [
+      "42711908-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.692Z",
+    "updatedAt": "2026-10-20T01:52:34.692Z"
+  },
+  {
+    "sapNo": "42711909",
+    "sapPo": "7794",
+    "bomFound": true,
+    "bomId": "42711909-1",
+    "bomIds": [
+      "42711909-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.692Z",
+    "updatedAt": "2026-10-20T01:52:34.692Z"
+  },
+  {
+    "sapNo": "42711910",
+    "sapPo": "7794",
+    "bomFound": true,
+    "bomId": "42711910-1",
+    "bomIds": [
+      "42711910-1"
+    ],
+    "brand": "SRP",
+    "brandSource": "BOM",
+    "productDescription": "",
+    "productionModels": [
+      "STK+CTN_CHANGE CODE (120,000 ea.:1 MAN)",
+      "DIRECT (120,000 ea.:1man)"
+    ],
+    "source": "CONFIRMED",
+    "verified": true,
+    "lastChecked": "2026-10-20T01:52:34.693Z",
+    "updatedAt": "2026-10-20T01:52:34.693Z"
+  }
+]
